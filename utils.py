@@ -136,7 +136,7 @@ def analyze_object(mask_data, original_image_rgb, result, i, optimal_k, annotate
 
 def process_image(img_path, model, output_dir):
     '''
-    
+    Processes an image for object segmentation & clustering.
     '''
     print(f"*****Processing: {img_path.name}")
     original_image_bgr = cv2.imread(str(img_path))
