@@ -89,7 +89,7 @@ def find_optimal_k(combined_pixels, output_dir, img_stem):
 
 def analyze_object(mask_data, original_image_rgb, result, i, optimal_k, annotated_image_rgb, img_path, output_dir):
     '''
-    "Analyzes a single detected object from an image.
+    Analyzes a single detected object from an image.
     '''
     mask_tensor = mask_data.data[0]
     mask_np = mask_tensor.cpu().numpy()
