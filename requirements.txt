@@ -1,0 +1,8 @@
+opencv-python
+numpy
+matplotlib
+ultralytics
+scikit-learn
+yellowbrick
+PyYAML
+ipykernel
