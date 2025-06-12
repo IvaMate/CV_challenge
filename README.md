@@ -14,6 +14,7 @@ This program takes images as input, detects a specific object within them, segme
 ├── Figures/            # Output is saved here.
 ├── config.yaml         # For configuring paths.
 ├── main.py             # Main Python file.
+├── utils.py            # Helper file.
 ├── docs                # Folder for research documents. 
 ├── .gitignore          
 └── README.md
